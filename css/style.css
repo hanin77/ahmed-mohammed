@@ -58,3 +58,41 @@ label{
   text-decoration: underline green;
 }
 
+
+h1 {
+    color: #353b48;
+    text-decoration: underline overline solid #E63946 ;
+  }
+  p {
+    color: #192a56;
+  }
+  textarea {
+    margin-left:20%;
+    margin-right:20%;
+    height: 100px;
+    resize: vertical;
+    border-radius: 0.5em;
+    background: none;
+    border: 2px solid;
+    transition: 0.25s;
+    border-color: #f5f6fa;
+    font-weight: bold;
+    color: #333533;
+  
+  }
+  textarea:focus {
+    border-color: #4cd137;
+    border-radius: 0.5em;
+  }
+  #submit {
+    margin-left:25%;
+    margin-right:25%;
+    background-color: #1d3557;
+    width: 50%;
+    height: 2.6em;
+    color: white;
+  }
+  #submit:hover{
+    background-color: #4cd137;
+  }
+  
