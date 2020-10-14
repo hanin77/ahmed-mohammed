@@ -7,7 +7,45 @@
   </head>
 
   <body>
-    <h1>“Hello World, we are software developers!”</h1>
+    <h1 id="title">Product Customer Feedback</h1>
+    <main>
+      <p id="description"><b>Please let us know about your experience with our product and service</b></p>
+      <form id="survey-form">
+        <label for="name" id="name-label">Enter your name:</label>
+        <input type="text" id="name" placeholder="Name" required>
+        <label for="email" id="email-label">Enter your email:</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <label for="number" id="number-label" >Enter your age:</label>
+        <input type="number" id="number" min="20" max="30" name="number" placeholder="Number" required>
+        <label for="dropdown">How satisfied are you with our company overall?
+  </label>
+        <select id="dropdown">
+          <option value="Very Satisfied">Very Satisfied</option>
+          <option value="Satisfied">Satisfied</option>
+          <option value="Undecided">Undecided</option>
+          <option value="Unsatisfied">Unsatisfied</option>
+        </select>
+        <label for="yesornow">Would you recommend it to your friends and colleagues?</label>
+        <label>
+          <input id="Male" type="radio" name="yesorno" value="in">
+          Yes
+        </label>
+        <label>
+          <input id="Femele" type="radio" name="yesorno" value="out">No
+        </label>
+        <label for="ch">Was our staff courteous and attentive?</label>
+        <label>
+        <input id="ck1" type="checkbox" name="ch" value="good communication skills">good communication skills</label>
+        <label>
+          <input id="ck2" type="checkbox" name="ch" value="act pro-actively">act pro-actively</label>
+        <label>
+          <input id="ck3" type="checkbox" name="ch" value="technically sound">technically sound</label>
+        <label for="comments">Do you have any suggestions to improve our product and service?</label>
+        <textarea placeholder="add comments" id="comments" name="comments"></textarea>
+        <label for="submit">
+        <input type="submit" id="submit" value="Save"></label>
+      </form>
+    </main>
 
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
